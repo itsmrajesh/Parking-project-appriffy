@@ -3,10 +3,30 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarLogedinComponent } from './components/shared/navbar/navbar-logedin/navbar-logedin.component';
+import { NavbarGeneralComponent } from './components/shared/navbar/navbar-general/navbar-general.component';
+import { ContactUsComponent } from './components/shared/info/contact-us/contact-us.component';
+import { AboutUsComponent } from './components/shared/info/about-us/about-us.component';
+import { FooterComponent } from './components/shared/info/footer/footer.component';
+import { LoginComponent } from './components/auth/login/login.component';
+import { SignupComponent } from './components/auth/signup/signup.component';
+import { DashboardComponent } from './components/user/dashboard/dashboard.component';
+import { MyAccountComponent } from './components/user/my-account/my-account.component';
+import { ShowBookingsComponent } from './components/user/show-bookings/show-bookings.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarLogedinComponent,
+    NavbarGeneralComponent,
+    ContactUsComponent,
+    AboutUsComponent,
+    FooterComponent,
+    LoginComponent,
+    SignupComponent,
+    DashboardComponent,
+    MyAccountComponent,
+    ShowBookingsComponent
   ],
   imports: [
     BrowserModule,
