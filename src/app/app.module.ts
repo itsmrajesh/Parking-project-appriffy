@@ -14,6 +14,7 @@ import { DashboardComponent } from './components/user/dashboard/dashboard.compon
 import { MyAccountComponent } from './components/user/my-account/my-account.component';
 import { ShowBookingsComponent } from './components/user/show-bookings/show-bookings.component';
 import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
+import { AuthComponent } from './components/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HomeDashboardComponent } from './components/shared/home-dashboard/home-
     DashboardComponent,
     MyAccountComponent,
     ShowBookingsComponent,
-    HomeDashboardComponent
+    HomeDashboardComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
