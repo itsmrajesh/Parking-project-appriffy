@@ -13,6 +13,7 @@ import { SignupComponent } from './components/auth/signup/signup.component';
 import { DashboardComponent } from './components/user/dashboard/dashboard.component';
 import { MyAccountComponent } from './components/user/my-account/my-account.component';
 import { ShowBookingsComponent } from './components/user/show-bookings/show-bookings.component';
+import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ShowBookingsComponent } from './components/user/show-bookings/show-book
     SignupComponent,
     DashboardComponent,
     MyAccountComponent,
-    ShowBookingsComponent
+    ShowBookingsComponent,
+    HomeDashboardComponent
   ],
   imports: [
     BrowserModule,
