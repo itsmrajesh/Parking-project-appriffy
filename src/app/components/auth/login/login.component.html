@@ -1,13 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-2">
-
     </div>
     <div class="col-md-6">
       <div class="page-header">
-        <h2>Sign in to Parking App</h2>
+        <h2 class="text-uppercase"> Sign in to Parking App</h2>
       </div>
-      <form action="/action_page.php">
+      <form action="dashboard">
         <div class="form-group">
           <label for="email">Email:</label>
           <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
@@ -17,11 +16,13 @@
           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" name="remember"> Remember me</label>
+          <label><input type="checkbox" name="remember"> Remember me</label> &nbsp;
+          <a>Forgot Password</a>
         </div>
         <button type="submit" class="btn btn-default">Login</button> &nbsp;
         <a href="index.html" class="btn btn-danger">Cancel</a>
       </form>
+      <h3>Still Not a Member <a href="signup">Join us</a></h3>
     </div>
     <div class="col-md-2">
 
