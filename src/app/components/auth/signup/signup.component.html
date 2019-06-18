@@ -15,15 +15,16 @@
           <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
         </div>
         <div class="form-group">
-            <label for="mobile">Mobile:</label>
-            <input type="number" class="form-control" id="mobile" placeholder="Enter mobile number" name="mobile" required>
-          </div>
+          <label for="mobile">Mobile:</label>
+          <input type="text" pattern="^[0-9]{10}$" title="Enter Valid 10 Digit mobile number" class="form-control"
+            id="mobile" placeholder="Enter mobile number" name="mobile" required>
+        </div>
         <div class="form-group">
           <label for="pwd">Password:</label>
           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" name="remember" required> Agreed to T&C</label> &nbsp;
+          <label><input type="checkbox" name="remember" title="Agree to T&C to Procced" required> Agreed to T&C</label> &nbsp;
           <a>Know More</a>
         </div>
         <button type="submit" class="btn btn-success">Signup</button> &nbsp;
