@@ -5,10 +5,11 @@ import { SignupComponent } from './components/auth/signup/signup.component';
 import { DashboardComponent } from './components/user/dashboard/dashboard.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { AppComponent } from './app.component';
+import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/index', pathMatch: 'full' },
-  { path: 'index', component: AppComponent },
+  { path: '', redirectTo: '/index', pathMatch: 'full' },
+  { path: 'index', component: HomeDashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'dashboard', component: DashboardComponent },
