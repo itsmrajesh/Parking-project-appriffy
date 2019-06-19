@@ -1,8 +1,4 @@
-
-  
- 
-  
-  .carousel-inner .btn {
+.carousel-inner .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,5 +13,8 @@
     border-radius: 5px;
     text-align: center;
    
+  }
+  img{
+    height: 60%;
   }
   
