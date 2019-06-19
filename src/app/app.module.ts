@@ -15,6 +15,7 @@ import { MyAccountComponent } from './components/user/my-account/my-account.comp
 import { ShowBookingsComponent } from './components/user/show-bookings/show-bookings.component';
 import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
 import { AuthComponent } from './components/auth/auth.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AuthComponent } from './components/auth/auth.component';
     MyAccountComponent,
     ShowBookingsComponent,
     HomeDashboardComponent,
-    AuthComponent
+    AuthComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
