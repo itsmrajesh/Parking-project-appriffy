@@ -6,6 +6,7 @@ import { DashboardComponent } from './components/user/dashboard/dashboard.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { AppComponent } from './app.component';
 import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
+import { ContactUsComponent } from './components/shared/info/contact-us/contact-us.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/index', pathMatch: 'full' },
@@ -13,7 +14,9 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'contactus', component: ContactUsComponent },
   { path: '**', component: PageNotFoundComponent }
+
 ];
 
 @NgModule({
