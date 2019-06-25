@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Parking-project-appriffy';
-  mail='info@parking.com';
+  mail: string;
+  mobNumber = '+91 98765 43210';
+  constructor() {
+    this.mail = 'info@parking.com';
+  }
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnInit() {
+  }
 }
