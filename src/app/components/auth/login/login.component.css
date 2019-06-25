@@ -1,10 +1,31 @@
-button:hover{
-    color: green;
+h1{
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: '22px';
 }
-.page-header{
-   color:  #38b76f
+
+.bg{ 
+    
+    width:100%;
+    height:100vh;
 }
-.container{
-    border: #38b76f;
+
+
+#home{
+background: url(https://wallpapercave.com/wp/dWouxIu.jpg) no-repeat center fixed;
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+background-size: cover;
+}
+.form-container{
+    border: 0px solid white;
+    padding: 50px 60px;
+    margin-top: 20vh;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+     box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+
 
 }
