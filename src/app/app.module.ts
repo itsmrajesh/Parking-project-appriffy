@@ -16,6 +16,9 @@ import { ShowBookingsComponent } from './components/user/show-bookings/show-book
 import { HomeDashboardComponent } from './components/shared/home-dashboard/home-dashboard.component';
 import { AuthComponent } from './components/auth/auth.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DashboardSidebarComponent } from './components/user/dashboard-sidebar/dashboard-sidebar.component';
+import { MapsComponent } from './components/shared/info/maps/maps.component';
+import { UserProfileComponent } from './components/user/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ShowBookingsComponent,
     HomeDashboardComponent,
     AuthComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DashboardSidebarComponent,
+    MapsComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
