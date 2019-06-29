@@ -12,7 +12,7 @@ import { UserProfileComponent } from './components/user/user-profile/user-profil
 import { ShowBookingsComponent } from './components/user/show-bookings/show-bookings.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/index', pathMatch: 'full' },
+  { path: ' ', redirectTo: '/index', pathMatch: 'full' },
   { path: 'index', component: HomeDashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
