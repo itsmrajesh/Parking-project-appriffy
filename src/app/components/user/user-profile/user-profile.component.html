@@ -9,7 +9,7 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
-                    Parking Made Easy {{UserName}}
+                    Parking Made Easy
                 </a>
             </div>
 
@@ -137,7 +137,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="" routerLink="/index">
                                 <p>Log out</p>
                             </a>
                         </li>
@@ -169,8 +169,7 @@
                                         <div class="col-md-3">
                                             <div class="form-group">
                                                 <label>Username</label>
-                                                <input type="text" class="form-control"  placeholder="Username"
-                                                    [(ngModel)]='Username'>
+                                                <input type="text" [(ngModel)]="userName" class="form-control"  placeholder="Username">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -258,9 +257,8 @@
                                 <div class="author">
                                     <a href="#">
                                         <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..." />
-
-                                        <h4 class="title">Mike Andrew<br />
-                                            <small>michael24</small>
+                                        <h4 class="title">{{userName}}<br />
+                                            <small>{{email}}</small>
                                         </h4>
                                     </a>
                                 </div>
