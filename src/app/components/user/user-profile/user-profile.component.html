@@ -9,7 +9,7 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
-                    Parking Made Easy
+                    Parking Made Easy {{UserName}}
                 </a>
             </div>
 
@@ -169,8 +169,8 @@
                                         <div class="col-md-3">
                                             <div class="form-group">
                                                 <label>Username</label>
-                                                <input type="text" class="form-control" placeholder="Username"
-                                                    value="michael23">
+                                                <input type="text" class="form-control"  placeholder="Username"
+                                                    [(ngModel)]='Username'>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -283,3 +283,4 @@
                 </div>
             </div>
         </div>
+        

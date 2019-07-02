@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { DashboardSidebarComponent } from './components/user/dashboard-sidebar/dashboard-sidebar.component';
 import { MapsComponent } from './components/shared/info/maps/maps.component';
 import { UserProfileComponent } from './components/user/user-profile/user-profile.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { UserProfileComponent } from './components/user/user-profile/user-profil
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

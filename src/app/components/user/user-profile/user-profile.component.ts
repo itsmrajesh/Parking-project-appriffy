@@ -5,10 +5,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './user-profile.component.html',
   styleUrls: ['./user-profile.component.css']
 })
-export class UserProfileComponent implements OnInit {
+export class UserProfileComponent  {
+
+  userName = 'itsmrajesh';
+  email = 'rajesh@parking.com';
+  firstName = 'Rajesh';
+  lastName = 'Chowdary';
+
 
   constructor() { }
 
+  // tslint:disable-next-line:use-lifecycle-interface
   ngOnInit() {
   }
 
