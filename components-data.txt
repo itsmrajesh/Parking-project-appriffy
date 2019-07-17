@@ -13,4 +13,5 @@ ng g c components/user/my-account
 ng g c components/user/show-bookings
 ng g c components/user/dashboard-sidebar
 ng g c components/user/user-profile
+ng g c components/user/user-notifications
 ng g c components/page-not-found

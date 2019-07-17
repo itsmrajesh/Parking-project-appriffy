@@ -21,6 +21,7 @@ import { DashboardSidebarComponent } from './components/user/dashboard-sidebar/d
 import { MapsComponent } from './components/shared/info/maps/maps.component';
 import { UserProfileComponent } from './components/user/user-profile/user-profile.component';
 import { from } from 'rxjs';
+import { UserNotificationsComponent } from './components/user/user-notifications/user-notifications.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { from } from 'rxjs';
     PageNotFoundComponent,
     DashboardSidebarComponent,
     MapsComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    UserNotificationsComponent
   ],
   imports: [
     BrowserModule,
